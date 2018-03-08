@@ -10,11 +10,6 @@ header {
     padding: 5px;
 }
 
-header nav a {
-    background-color: rgb(238, 255, 0);
-    padding: 5px;
-}
-
 header nav {
     text-align: center;
     background-color: rgb(0, 255, 21);
@@ -22,9 +17,25 @@ header nav {
     padding: 5px
 } 
 
+header nav a {
+    background-color: rgb(238, 255, 0);
+    padding: 5px;
+}
+
 main {
-    background-color: white;
+    background-color: rgba(241, 237, 237, 0.945);
     padding: 5px
+}
+
+main section {
+    overflow: hidden;
+}
+
+main section p img {
+    width: 200px;
+    float: left;
+    margin-right: 5px;
+    
 }
 
 footer {
