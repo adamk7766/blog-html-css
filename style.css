@@ -22,13 +22,39 @@ header nav a {
     padding: 5px;
 }
 
+header nav a:hover {
+    background: rgb(253, 244, 160)
+}
+
+.top-headline{
+    color: blue;
+}
+
+.background-green{
+    background: green;
+}
+
+.background-red{
+    background: red;
+}
+
+.background-aqua{
+    background: aqua;
+}
+
+
+
 main {
-    background-color: rgba(241, 237, 237, 0.945);
+    background-color: rgb(255, 255, 255);
     padding: 5px
 }
 
 main section {
     overflow: hidden;
+}
+
+main section.grey-section {
+    background: rgb(226, 226, 226);
 }
 
 main section p img {
