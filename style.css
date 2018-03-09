@@ -112,3 +112,13 @@ main section p img {
 footer {
     padding: 5px
 }
+
+main form div label {
+    width: 200px;
+    display: inline-block;
+}
+
+main form div {
+    margin-bottom: 5px;
+    
+}
